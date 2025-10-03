@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.project-card {
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar {
+  background-color: #4CAF50;
+  padding: 20px;
+  color: white;
+}
+
+footer {
+  background-color: #f8f9fa;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .box {
+    width: 100%;
+  }
+  .project-card {
+    margin-bottom: 10px;
+  }
+  .sidebar {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  h1 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .box {
+    width: 48%;
+  }
+  .project-card {
+    padding: 15px;
+  }
+  .sidebar {
+    padding: 15px;
+  }
+}
+
+@media (min-width: 1025px) {
+  h1 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .box {
+    width: 30%;
+  }
+  .project-card {
+    padding: 20px;
+  }
+  .sidebar {
+    padding: 20px;
+  }
+}
